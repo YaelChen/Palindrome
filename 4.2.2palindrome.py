@@ -1,8 +1,7 @@
 
 def palindrome(check):
-    no_spaces = check.replace(" ", "")
-    low = no_spaces.lower()
-    if low == low[::-1]:
+    pali = check.replace(" ", "").lower()
+    if pali == pali[::-1]:
         print(f"{check} IS a Palindrome!")
     else:
         print(f"{check} is NOT a Palindrome!")
